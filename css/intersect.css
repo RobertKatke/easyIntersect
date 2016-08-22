@@ -1,0 +1,11 @@
+.intersect {
+	-webkit-transition: all .8s;
+	-o-transition: all .8s;
+	transition: all .8s;
+	opacity: 0;
+	visibility: hidden;
+}
+.intersect.show {
+	opacity: 1;
+	visibility: visible;
+}
